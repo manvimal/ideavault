@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background:
+    radial-gradient(1200px 500px at 10% -10%, rgba(139, 123, 255, 0.12), transparent),
+    radial-gradient(900px 500px at 100% 0%, rgba(114, 86, 246, 0.08), transparent),
+    #f5f4fb;
+}
+
+::selection {
+  background: rgba(114, 86, 246, 0.25);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d7d3f5;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c1baf0;
+}
+
+.paper-sheet {
+  background: #fffefb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.mindmap-tree,
+.mindmap-tree ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 1.75rem;
+  position: relative;
+}
+
+.mindmap-tree > li {
+  padding-left: 0;
+}
+
+.mindmap-tree li {
+  position: relative;
+  padding: 0.4rem 0 0.4rem 1.75rem;
+}
+
+.mindmap-tree li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-left: 1.5px solid #d8d3fb;
+  height: 100%;
+}
+
+.mindmap-tree li::after {
+  content: "";
+  position: absolute;
+  top: 1.2rem;
+  left: 0;
+  width: 1.4rem;
+  border-top: 1.5px solid #d8d3fb;
+}
+
+.mindmap-tree > li:last-child::before,
+.mindmap-tree li:last-child::before {
+  height: 1.2rem;
+}
