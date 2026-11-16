@@ -1,0 +1,17 @@
+{
+  "id": "bfbbd548-61ea-4aaa-93f2-9f5d334843c4",
+  "title": "Document OCR - KYC",
+  "content": "## Motivation\nAutomatic understanding of documents such as invoices, contracts, and resumes is lucrative, opening up many new avenues of business. Automatic retrieval, interpretation and understanding of text from document is a huge lever ahead. [At]\n\n## Literature Review\nThe main rationale for text detection described in[AT] is using a boundary box around text (FCNN), followed by a comparison with trained data for characters. These two are back by different models each. Some models are CharGrid, wordGrid, BertGrid, C+BertGrid,TableSense. In this paper the main points are layout analysis, optical character recognition, domain specific information extraction. \n\n## .References \n[At]https://arxiv.org/pdf/2011.13534, Nishant Subramani, Alexandre Matton,Malcolm Greaves  A Survey of Deep Learning Approaches for OCR and Document Understanding\n",
+  "created_at": "2026-09-02T04:16:38.491980Z",
+  "updated_at": "2026-09-03T07:45:07.956097Z",
+  "strategic_tools": {
+    "swot": {},
+    "ansoff": {},
+    "value_chain": {},
+    "revenue_margin_matrix": {},
+    "porter_five_forces": {},
+    "flywheel_moat": {},
+    "three_horizons": {},
+    "customer_value": {}
+  }
+}
